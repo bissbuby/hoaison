@@ -1,0 +1,11 @@
+
+
+ html{ height: 300px;}
+
+    body {
+     background: url(../image/dan.png) left top no-repeat, url(../image/suu.png) right bottom no-repeat, url(../image/thin.jpg) left top repeat;
+     padding: 15px;
+     background-size: 50px, 130px, auto;
+     }
+
+    

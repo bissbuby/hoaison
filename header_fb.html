@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            bottom: 0;
+        }
+        .header{
+            width: 100%;
+            height: 60px;
+            position: relative;      
+            background-color: rgba(16, 15, 15, 0.907);
+        }
+        .left{
+            width: 300px;
+            height: 20px;
+            float: left;
+            position: relative;
+        
+            left: 15px;
+            display: flex;
+            
+        }
+        img{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+
+        .icon{
+            display: flex;
+            position: relative;
+        }
+        .between{
+            width: 600px;
+            height: 20px;
+            margin: 0 auto;
+            position: relative;
+            top: 10px;
+            
+            
+        }
+       .icon1{
+        display: flex;
+        position: relative;
+       }
+        .right{
+            align-items: center;
+            width: auto;
+            height: 20px;
+            float: right;
+            position: relative;
+            bottom: 20px;
+            right: 5px;
+           
+        }
+        div.search {
+            border: none;
+            padding: 5px;
+            margin-top: 10px;
+            position: relative;
+            }
+        i{
+            font-size: 28px;
+            color: aliceblue;
+            align-items: center;
+            padding: 5px 30px 5px 30px;
+            position: relative;
+        }
+        strong{
+            font-size: 28px;
+            color: aliceblue;
+            align-items: center;
+            padding: 5px 15px 5px 15px;
+            position: relative;
+        }
+        input.nosubmit {
+            border: 1px solid #555;
+            width: 100%;
+            padding: 9px 4px 9px 40px;
+            background: transparent url(../image/kisspng-computer-icons-magnifying-glass-magnifier-symbol-register-button-5b0e1c54caf619.6401158915276514128313.jpg) no-repeat 13px center;
+            position: relative;
+        }
+       .left.nosubmit{
+        text-align: center;
+        float: right;
+        border-radius: 20%;
+        position: relative;
+       }
+       .left.logo{
+        text-align: center;
+        float: left;
+        position: relative;
+       }
+       .border1{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border2{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border3{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border4{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border5{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border6{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+        }
+        .border7{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }      
+        .border8{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .border9{
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 45px;
+            right: 10px;
+            display: none;
+            
+        }
+        .home:hover+.border1{
+            display: block;
+        }
+        .friend:hover+.border2{
+            display: block;
+        }
+        .watch:hover+.border3{
+            display: block;
+        }
+        .shop:hover+.border4{
+            display: block;
+        }
+        .group:hover+.border5{
+            display: block;
+        }
+        .menu:hover+.border6{
+            display: block;
+        }
+        .message:hover+.border7{
+            display: block;
+        }
+        .notification:hover+.border8{
+            display: block;
+        }
+        .profile:hover+.border9{
+            display: block;
+        }
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="header">
+        
+            <div class="left">
+                    <div class="logo">
+                        <img src="../image/299cb082dcf1eef305ca1c7515385b14.png">
+                    </div>
+                        <div class="search">
+                            <input class="nosubmit" type="search" placeholder="Tìm kiếm trên fb"> 
+                   
+                </div>
+                
+                
+        </div>
+        
+        <div class="between">
+            <div class="icon">
+                <div class=home><i class="fa-solid fa-house" ></i></div>
+                <div class="watch"><i class="fa-solid fa-tv"></i></div>
+                <div class="shop"><i class="fa-solid fa-shop"></i></div>
+                <div class="group"><i class="fa-solid fa-users"></i></div>
+                <div class="friend"><i class="fa-solid fa-user-group"></i></div>
+            </div>
+            <div class="thongbao">
+                <div class="border1">Trang chu</div>
+                <div class="border2">friend</div>
+                <div class="border3">watch</div>
+                <div class="border4">shop</div>
+                <div class="border5">group</div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="icon1">
+                <div class="menu"><strong class="fa-solid fa-bars" ></strong></div>
+                <div class="message"><strong class="fa-brands fa-facebook-messenger"></strong></div>
+                <div class="notification"><strong class="fa-solid fa-users"></strong></div>
+                <div class="profile"><img src="../image/anh.jpg"></div>            
+            </div>
+            <div class="thongbao2">
+                <div class="border6">Menu</div>
+                <div class="border7">Message</div>
+                <div class="border8">Thong bao</div>
+                <div class="border9">profile</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
